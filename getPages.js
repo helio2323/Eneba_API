@@ -1,34 +1,20 @@
-var myHeaders = new Headers();
-myHeaders.append("Accept", "application/json");
-myHeaders.append("Accept-Language", "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7");
-myHeaders.append("Connection", "keep-alive");
-myHeaders.append("Content-Type", "application/json");
-myHeaders.append("Origin", "https://api.catalysis-hub.org");
-myHeaders.append("Sec-Fetch-Dest", "empty");
-myHeaders.append("Sec-Fetch-Mode", "cors");
-myHeaders.append("Sec-Fetch-Site", "same-origin");
-myHeaders.append("User-Agent", "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36");
-myHeaders.append("X-KL-saas-Ajax-Request", "Ajax_Request");
-myHeaders.append("sec-ch-ua", "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"");
-myHeaders.append("sec-ch-ua-mobile", "?1");
-myHeaders.append("sec-ch-ua-platform", "\"Android\"");
-
-var raw = JSON.stringify({
-  "query": "query{reactions (pubId: \"YohannesCombined2023\",\n        first: 20, after: \"YXJyYXljb25uZWN0aW9uOjIxOQ==\",\n        order: \"chemicalComposition\") {\n        totalCount\n        pageInfo {\n        hasNextPage\n        hasPreviousPage\n        startCursor\n        endCursor\n        }\n        edges {\n          node {\n            Equation\n            sites\n            id\n            pubId\n            dftCode\n            dftFunctional\n            reactants\n            products\n            facet\n            reactionEnergy\n            activationEnergy\n            surfaceComposition\n            chemicalComposition\n            reactionSystems {\n              name\n              aseId\n            }\n          }\n        }\n        }}",
-  "variables": null
+fetch("https://www.eneba.com/graphql/", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "pt_BR",
+    "content-type": "application/json",
+    "sec-ch-ua": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"",
+    "sec-ch-ua-mobile": "?1",
+    "sec-ch-ua-platform": "\"Android\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-kl-saas-ajax-request": "Ajax_Request",
+    "x-version": "1.850.0",
+    "cookie": "userId=016651737941421848825562432377430; region=brazil; exchange=BRL; _gcl_au=1.1.587405659.1692365192; cconsent=1; _fbp=fb.1.1692365710501.1506513370; crt=6f3fcfd4c08a4af797ad857eaae7233a.a9af5cebd2e91a0926d9ab3e8c3fa8df250a7b1c8fcfa2f75217e70e0e1b8f63; _ga=GA1.1.1047347883.1692365191; auth=%7B%22accessToken%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI4NzViN2NhMi02MDIyLTExZTgtYWZhYy0wMjQyYWMxNTAwMGEiLCJqdGkiOiIxODk1ZWU0Mi00M2IxLTExZWUtYTdiNC1iMmZjOGExZjkyZjgiLCJpYXQiOjE2OTMwMTM4MzksIm5iZiI6MTY5MzAxMzgzOSwiZXhwIjoxNjk1NjkyMjM5LCJzdWIiOiJjOGFhYTEyMC0yYjJlLTExZWQtYjUwZC03MjA0ZDE1ZTIxZGMiLCJzY29wZSI6InVzZXIiLCJuYW1lIjoiSEVMSU8gRkVSTkFOREVTIExJTUEiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJoZWxpb2ZyZWlzbGltYUBnbWFpbC5jb20iLCJlbWFpbCI6ImhlbGlvZnJlaXNsaW1hQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJjb3VudHJ5IjoiQlJBIiwiYWRkcmVzcyI6IlJ1YSBBcGFyZWNpZG8gTW9yYmlkZWxpLCAyNzAsIE1vcmJpZGVsbGkiLCJ6aXAiOiIzNzY0MC0wMDAiLCJjaXR5IjoiRXh0cmVtYSIsInN0YXRlIjoiTUciLCJyb2xlcyI6WyJST0xFX0VNQUlMX1ZFUklGSUVEIiwiUk9MRV9QSE9ORV9WRVJJRklFRCIsIlJPTEVfSU5ESVZJRFVBTCIsIlJPTEVfVVNFUiJdLCJwZXJtaXNzaW9ucyI6W10sImVuYWJsZWQiOnRydWUsImJhbm5lZCI6ZmFsc2UsImZyb3plbiI6ZmFsc2UsImludGVybmFsX21lcmNoYW50IjpmYWxzZSwicGhvbmVfbnVtYmVyIjoiMTE5OTAyNzEwNDciLCJwaG9uZV9udW1iZXJfcHJlZml4IjoiKzU1IiwicGhvbmVfbnVtYmVyX2NvbmZpcm1lZF9hdCI6IjIwMjItMDktMjBUMjE6MjA6MTkrMDA6MDAiLCJhcHBfb3RwX2VuYWJsZWRfYXQiOiIyMDIyLTEwLTE0VDIyOjU3OjU1KzAwOjAwIiwicGhvbmVfb3RwX2VuYWJsZWRfYXQiOiIyMDIyLTA5LTIwVDIxOjIxOjQ1KzAwOjAwIiwicGhvbmVfb3RwX3JlcXVlc3RlZF9hdCI6IjIwMjItMTAtMTRUMjI6Mzk6NDArMDA6MDAiLCJwaG9uZV9vdHBfcGhvbmVfbnVtYmVyIjoiMTE5OTAyNzEwNDciLCJwaG9uZV9vdHBfcGhvbmVfbnVtYmVyX3ByZWZpeCI6Iis1NSIsIm1mYV9lbmFibGVkX2F0IjoiMjAyMi0wOS0yMFQyMToyMTo0NSswMDowMCIsImdvb2dsZV9pZCI6IjEwMzE0MTY3MDYyNjQ5MDQzMDUwMSIsInByaXZpbGVnZXNfZXhwaXJlc19hdCI6IjIwMjMtMDgtMjZUMDE6NTc6MTkrMDA6MDAiLCJwcml2aWxlZ2VzX2R1cmF0aW9uIjoiUDBZME0wRFQwSDIwTTBTIiwibG9jYWxlIjoiZW5fVVMiLCJpbml0aWFsX3RyYWZmaWNfc291cmNlIjoidXRtY3NyPShkaXJlY3QpfHV0bWNtZD0obm9uZSl8dXRtY2NuPShub3Qgc2V0KSJ9.pgXMv2lhtKN9xID9AXgy-5i6-gY2TXC-s6ReI-IduhtBPMpAMY9rKgBvO9F5LEttONjFVa6VjtxouEpIMO1eWOQJ47yT3YfLifYw13uva6S54A2oJa6s3GSg8YapwQagQ9S_ev2vbpJFeIC_RfUPF3tHXTMGo2kr_IhaMbxYQR0%22%2C%22refreshToken%22%3A%22def502002cfda4caf34435d971d5d42ad62dee868723934f6307d801b610a2bff8ed2c8bf986980bc30bc37ef93e5ca13246ffd634756deeaca633857ab4a243f960026de7341005d922c1987af39c31c8c0c898d430d8aa470de2435c7b8dd598d73628c75505a4ccfbb51276f45a899e4410f426c3116ecb02812d1f807adab9db9056f14898c669d01d0e996b2412f46e75c00001f7960ae39f3e2e99d379e4a84fd8e063a475585f2cd0e4ea40687d0f3d4dbd853ead005a0d39ed1507d382efd7acaf50426a291e527ba0f66291454445b89c7b41ffdb905829007e413a963d57ce313961a8426658eb45b3ac26e0b42cdc5c1bad18da60c8b2ee81f8b0d8ab77660c60aa975a675e7f5dec852d18c1c7bfbe85027b14387def3a7dce67ff87b308595c3d0a2cb49cc23c70019f28b42d5928ea779e2a19a5e4b83f75f77fad0269aa5091141c0188b2e3ef2eb995%22%7D; af_id=chief117br; _ga_D9L6N0DH7Y=GS1.1.1693086325.1.1.1693087413.0.0.0; zd=38; lng=br; scm=d.brazil.8f49e28041fd4738.d4bde1c60a1553d7a7c45781ab74d4082dc68c73f39d36c4831db4d0c2080d62; cf_clearance=wH21zNoYkpYY09wLotGabTfAk335XT3R9rayLb.6qpQ-1693573113-0-1-5a5897a.cedcd675.52a4d69a-0.2.1693573113; _ga_DLP0VZCBXJ=GS1.1.1693572724.59.1.1693573577.51.0.0",
+    "Referer": "https://www.eneba.com/br/recommended-for-you",
+    "Referrer-Policy": "no-referrer-when-downgrade"
+  },
+  "body": "{\"operationName\":\"RecombeeSuggestions\",\"variables\":{\"currency\":\"BRL\",\"context\":{\"country\":\"BR\",\"region\":\"brazil\",\"language\":\"pt_BR\"},\"first\":15,\"after\":\"YXJyYXljb25uZWN0aW9uOjIwOQ==\",\"userId\":\"c8aaa120-2b2e-11ed-b50d-7204d15e21dc\",\"recommId\":\"7844904544e4cae74d4254af6569a3d6\",\"scenario\":\"RECOMMENDED_FOR_YOU_PAGE\"},\"query\":\"query RecombeeSuggestions($context: ContextInput, $first: Int, $userId: String!, $after: String, $itemId: String, $recommId: String, $currency: AvailableCurrencyType, $scenario: RecommendationScenarioEnum) {\\n  recombeeRecommendedProducts(\\n    context: $context\\n    first: $first\\n    after: $after\\n    userIdentifier: $userId\\n    productShortId: $itemId\\n    recommId: $recommId\\n    scenario: $scenario\\n  ) {\\n    recommId\\n    items {\\n      edges {\\n        node {\\n          ...BasicProduct\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\\nfragment BasicProduct on Product {\\n  shortId\\n  name\\n  slug\\n  regions {\\n    code\\n    name\\n    __typename\\n  }\\n  type {\\n    value\\n    __typename\\n  }\\n  drm {\\n    name\\n    slug\\n    __typename\\n  }\\n  cashback {\\n    ...Cashback\\n    __typename\\n  }\\n  cover(size: 300) {\\n    ...MultiSizeImage\\n    __typename\\n  }\\n  coverMobile: cover(size: 95) {\\n    ...MultiSizeImage\\n    __typename\\n  }\\n  promotion {\\n    available\\n    __typename\\n  }\\n  cheapestAuction {\\n    ...PreferredOrCheapestAuction\\n    __typename\\n  }\\n  wishItemCount\\n  category\\n  __typename\\n}\\n\\nfragment PreferredOrCheapestAuction on Auction {\\n  id\\n  isAddableToCart\\n  isInStock\\n  price(currency: $currency) {\\n    ...Money\\n    __typename\\n  }\\n  isPreOrder\\n  merchant {\\n    slug\\n    displayname\\n    physicalReviews(first: 5, after: null) {\\n      ...PhysicalReviewConnection\\n      __typename\\n    }\\n    paymentAuthorizationTerm {\\n      value\\n      __typename\\n    }\\n    deliveryAuthorizationTerm {\\n      value\\n      __typename\\n    }\\n    __typename\\n  }\\n  discountLabelFromMsrp\\n  msrp(currency: $currency) {\\n    ...Money\\n    __typename\\n  }\\n  promotionalDiscountLabel\\n  promotionalDiscountLabelFromMsrp\\n  promotionalPrice(currency: $currency) {\\n    ...Money\\n    __typename\\n  }\\n  flags\\n  __typename\\n}\\n\\nfragment Money on Money {\\n  amount\\n  currency\\n  __typename\\n}\\n\\nfragment PhysicalReviewConnection on PhysicalReviewConnection {\\n  totalCount\\n  edges {\\n    node {\\n      id\\n      text\\n      auto\\n      rating\\n      autoText\\n      orderItemName\\n      submittedAt\\n      submittedDiff\\n      __typename\\n    }\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment MultiSizeImage on MultiSizeImage {\\n  src\\n  src2x\\n  src3x\\n  srcTiny\\n  __typename\\n}\\n\\nfragment Cashback on Cashback {\\n  valuePercent\\n  secondsUntilExpiration\\n  __typename\\n}\"}",
+  "method": "POST"
 });
-
-var requestOptions = {
-  method: 'POST',
-  headers: myHeaders,
-  body: raw,
-  redirect: 'follow'
-};
-
-fetch("https://api.catalysis-hub.org/graphql?", requestOptions)
-.then(response => response.json())
-.then(result => {
-  const endCursor = result.data.reactions.pageInfo.endCursor;
-  return res.json(endCursor);
-})
-
