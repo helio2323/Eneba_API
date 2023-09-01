@@ -161,17 +161,16 @@ app.get('/Graphql', (req, res) => {
   };
     
   fetch("https://api.catalysis-hub.org/graphql?", requestOptions)
-    .then(response => response.json())
-    .then(result => {
-      console.log("API response:", result);
-      if (result.data && result.data.reactions) {
-        const endCursor = result.data.reactions.pageInfo.endCursor;
-        return res.json(endCursor);
-      } else {
-        return res.status(500).json({ error: 'Resposta da API inválida' });
-      }
-    })
-    .catch(error => console.log('error', error));
+  .then(response => response.json())
+  .then(result => {
+    console.log("API response:", result);
+    if (result.data && result.data.reactions) {
+      return res.json(result);
+    } else {
+      return res.status(500).json({ error: 'Resposta da API inválida' });
+    }
+  })
+  .catch(error => console.log('error', error));
 });
 
 
