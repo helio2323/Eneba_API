@@ -68,7 +68,7 @@ app.get('/Graphql', (req, res) => {
         console.log("API response:", result);
         if (result.data && result.data.reactions) {
           const endCursor = result.data.reactions.pageInfo.endCursor;
-          return res.json(endCursor);
+          return res.json(result);
         } else {
           return res.status(500).json({ error: 'Resposta da API inválida' });
         }
