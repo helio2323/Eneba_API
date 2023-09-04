@@ -55,7 +55,7 @@
                          "isAddableToCart":true,
                          "isInStock":true,
                          "price":{
-                            "amount":10968,
+                            "amount":10965,
                             "currency":"BRL",
                             "__typename":"Money"
                          },
@@ -94,7 +94,7 @@
                          ],
                          "__typename":"Auction"
                       },
-                      "wishItemCount":6175,
+                      "wishItemCount":6174,
                       "category":"DIGITAL",
                       "__typename":"Product"
                    },
@@ -145,7 +145,7 @@
                          "isAddableToCart":true,
                          "isInStock":true,
                          "price":{
-                            "amount":5479,
+                            "amount":5477,
                             "currency":"BRL",
                             "__typename":"Money"
                          },
@@ -181,178 +181,6 @@
                          "__typename":"Auction"
                       },
                       "wishItemCount":26,
-                      "category":"DIGITAL",
-                      "__typename":"Product"
-                   },
-                   "__typename":"ProductEdge"
-                },
-                {
-                   "node":{
-                      "shortId":"u84y5ogk6ce6tqrmh4ty7b6ibe",
-                      "name":"God Eater 2: Rage Burst Steam Key GLOBAL",
-                      "slug":"steam-god-eater-2-rage-burst-steam-key-global",
-                      "regions":[
-                         {
-                            "code":"global",
-                            "name":"Global",
-                            "__typename":"ProductRegion"
-                         }
-                      ],
-                      "type":{
-                         "value":"GAME",
-                         "__typename":"ProductTypeEnumValue"
-                      },
-                      "drm":{
-                         "name":"Steam",
-                         "slug":"steam",
-                         "__typename":"Drm"
-                      },
-                      "cashback":null,
-                      "cover":{
-                         "src":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_350x200_1x-0.jpg",
-                         "src2x":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_350x200_2x-0.jpg",
-                         "src3x":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_350x200_3x-0.jpg",
-                         "srcTiny":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_70x92_1x-0.jpg",
-                         "__typename":"MultiSizeImage"
-                      },
-                      "coverMobile":{
-                         "src":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_155x92_1x-0.jpg",
-                         "src2x":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_155x92_2x-0.jpg",
-                         "src3x":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_155x92_3x-0.jpg",
-                         "srcTiny":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_70x92_1x-0.jpg",
-                         "__typename":"MultiSizeImage"
-                      },
-                      "promotion":{
-                         "available":false,
-                         "__typename":"ProductPromotion"
-                      },
-                      "cheapestAuction":{
-                         "id":"5077c3cc-127d-11ee-95ab-021a20247aa6",
-                         "isAddableToCart":true,
-                         "isInStock":true,
-                         "price":{
-                            "amount":3829,
-                            "currency":"BRL",
-                            "__typename":"Money"
-                         },
-                         "isPreOrder":false,
-                         "merchant":{
-                            "slug":"pcgamesmarket",
-                            "displayname":"PcGamesMarket",
-                            "physicalReviews":{
-                               "totalCount":0,
-                               "edges":[
-                                  
-                               ],
-                               "__typename":"PhysicalReviewConnection"
-                            },
-                            "paymentAuthorizationTerm":{
-                               "value":"INSTANT",
-                               "__typename":"PaymentAuthorizationTermOption"
-                            },
-                            "deliveryAuthorizationTerm":{
-                               "value":"INSTANT",
-                               "__typename":"DeliveryAuthorizationTermOption"
-                            },
-                            "__typename":"Merchant"
-                         },
-                         "discountLabelFromMsrp":null,
-                         "msrp":null,
-                         "promotionalDiscountLabel":null,
-                         "promotionalDiscountLabelFromMsrp":null,
-                         "promotionalPrice":null,
-                         "flags":[
-                            
-                         ],
-                         "__typename":"Auction"
-                      },
-                      "wishItemCount":563,
-                      "category":"DIGITAL",
-                      "__typename":"Product"
-                   },
-                   "__typename":"ProductEdge"
-                },
-                {
-                   "node":{
-                      "shortId":"3zqdfdsk6ce6tfegh4ty7b6ibe",
-                      "name":"Final Fantasy XV (Windows Edition) Steam Key GLOBAL",
-                      "slug":"steam-final-fantasy-xv-windows-edition-steam-key-global",
-                      "regions":[
-                         {
-                            "code":"global",
-                            "name":"Global",
-                            "__typename":"ProductRegion"
-                         }
-                      ],
-                      "type":{
-                         "value":"GAME",
-                         "__typename":"ProductTypeEnumValue"
-                      },
-                      "drm":{
-                         "name":"Steam",
-                         "slug":"steam",
-                         "__typename":"Drm"
-                      },
-                      "cashback":null,
-                      "cover":{
-                         "src":"https://cdn-products.eneba.com/resized-products/JdsdNPx_350x200_1x-0.jpg",
-                         "src2x":"https://cdn-products.eneba.com/resized-products/JdsdNPx_350x200_2x-0.jpg",
-                         "src3x":"https://cdn-products.eneba.com/resized-products/JdsdNPx_350x200_3x-0.jpg",
-                         "srcTiny":"https://cdn-products.eneba.com/resized-products/JdsdNPx_70x92_1x-0.jpg",
-                         "__typename":"MultiSizeImage"
-                      },
-                      "coverMobile":{
-                         "src":"https://cdn-products.eneba.com/resized-products/JdsdNPx_155x92_1x-0.jpg",
-                         "src2x":"https://cdn-products.eneba.com/resized-products/JdsdNPx_155x92_2x-0.jpg",
-                         "src3x":"https://cdn-products.eneba.com/resized-products/JdsdNPx_155x92_3x-0.jpg",
-                         "srcTiny":"https://cdn-products.eneba.com/resized-products/JdsdNPx_70x92_1x-0.jpg",
-                         "__typename":"MultiSizeImage"
-                      },
-                      "promotion":{
-                         "available":false,
-                         "__typename":"ProductPromotion"
-                      },
-                      "cheapestAuction":{
-                         "id":"02c6ffbe-4b1b-11ed-9036-6a034b93eeda",
-                         "isAddableToCart":true,
-                         "isInStock":true,
-                         "price":{
-                            "amount":10508,
-                            "currency":"BRL",
-                            "__typename":"Money"
-                         },
-                         "isPreOrder":false,
-                         "merchant":{
-                            "slug":"gaming4life",
-                            "displayname":"Gaming4Life",
-                            "physicalReviews":{
-                               "totalCount":0,
-                               "edges":[
-                                  
-                               ],
-                               "__typename":"PhysicalReviewConnection"
-                            },
-                            "paymentAuthorizationTerm":{
-                               "value":"INSTANT",
-                               "__typename":"PaymentAuthorizationTermOption"
-                            },
-                            "deliveryAuthorizationTerm":{
-                               "value":"INSTANT",
-                               "__typename":"DeliveryAuthorizationTermOption"
-                            },
-                            "__typename":"Merchant"
-                         },
-                         "discountLabelFromMsrp":null,
-                         "msrp":null,
-                         "promotionalDiscountLabel":null,
-                         "promotionalDiscountLabelFromMsrp":null,
-                         "promotionalPrice":null,
-                         "flags":[
-                            
-                         ],
-                         "__typename":"Auction"
-                      },
-                      "wishItemCount":2315,
                       "category":"DIGITAL",
                       "__typename":"Product"
                    },
@@ -403,7 +231,7 @@
                          "isAddableToCart":true,
                          "isInStock":true,
                          "price":{
-                            "amount":4525,
+                            "amount":4524,
                             "currency":"BRL",
                             "__typename":"Money"
                          },
@@ -443,6 +271,178 @@
                       "__typename":"Product"
                    },
                    "__typename":"ProductEdge"
+                },
+                {
+                   "node":{
+                      "shortId":"u84y5ogk6ce6tqrmh4ty7b6ibe",
+                      "name":"God Eater 2: Rage Burst Steam Key GLOBAL",
+                      "slug":"steam-god-eater-2-rage-burst-steam-key-global",
+                      "regions":[
+                         {
+                            "code":"global",
+                            "name":"Global",
+                            "__typename":"ProductRegion"
+                         }
+                      ],
+                      "type":{
+                         "value":"GAME",
+                         "__typename":"ProductTypeEnumValue"
+                      },
+                      "drm":{
+                         "name":"Steam",
+                         "slug":"steam",
+                         "__typename":"Drm"
+                      },
+                      "cashback":null,
+                      "cover":{
+                         "src":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_350x200_1x-0.jpg",
+                         "src2x":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_350x200_2x-0.jpg",
+                         "src3x":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_350x200_3x-0.jpg",
+                         "srcTiny":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_70x92_1x-0.jpg",
+                         "__typename":"MultiSizeImage"
+                      },
+                      "coverMobile":{
+                         "src":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_155x92_1x-0.jpg",
+                         "src2x":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_155x92_2x-0.jpg",
+                         "src3x":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_155x92_3x-0.jpg",
+                         "srcTiny":"https://cdn-products.eneba.com/resized-products/ae52577bc476ccbd8b2be03022988545_70x92_1x-0.jpg",
+                         "__typename":"MultiSizeImage"
+                      },
+                      "promotion":{
+                         "available":false,
+                         "__typename":"ProductPromotion"
+                      },
+                      "cheapestAuction":{
+                         "id":"5077c3cc-127d-11ee-95ab-021a20247aa6",
+                         "isAddableToCart":true,
+                         "isInStock":true,
+                         "price":{
+                            "amount":3828,
+                            "currency":"BRL",
+                            "__typename":"Money"
+                         },
+                         "isPreOrder":false,
+                         "merchant":{
+                            "slug":"pcgamesmarket",
+                            "displayname":"PcGamesMarket",
+                            "physicalReviews":{
+                               "totalCount":0,
+                               "edges":[
+                                  
+                               ],
+                               "__typename":"PhysicalReviewConnection"
+                            },
+                            "paymentAuthorizationTerm":{
+                               "value":"INSTANT",
+                               "__typename":"PaymentAuthorizationTermOption"
+                            },
+                            "deliveryAuthorizationTerm":{
+                               "value":"INSTANT",
+                               "__typename":"DeliveryAuthorizationTermOption"
+                            },
+                            "__typename":"Merchant"
+                         },
+                         "discountLabelFromMsrp":null,
+                         "msrp":null,
+                         "promotionalDiscountLabel":null,
+                         "promotionalDiscountLabelFromMsrp":null,
+                         "promotionalPrice":null,
+                         "flags":[
+                            
+                         ],
+                         "__typename":"Auction"
+                      },
+                      "wishItemCount":563,
+                      "category":"DIGITAL",
+                      "__typename":"Product"
+                   },
+                   "__typename":"ProductEdge"
+                },
+                {
+                   "node":{
+                      "shortId":"ijhdtcdibre63qz6nkk4zqmq6o",
+                      "name":"Elden Ring XBOX LIVE Key GLOBAL",
+                      "slug":"xbox-elden-ring-xbox-live-key-global",
+                      "regions":[
+                         {
+                            "code":"global",
+                            "name":"Global",
+                            "__typename":"ProductRegion"
+                         }
+                      ],
+                      "type":{
+                         "value":"GAME",
+                         "__typename":"ProductTypeEnumValue"
+                      },
+                      "drm":{
+                         "name":"Xbox Live",
+                         "slug":"xbox",
+                         "__typename":"Drm"
+                      },
+                      "cashback":null,
+                      "cover":{
+                         "src":"https://cdn-products.eneba.com/resized-products/Qpp1Loj7MqjZI3SanQJvzZc7WwVCsyF0i1Ty925544A_350x200_1x-0.png",
+                         "src2x":"https://cdn-products.eneba.com/resized-products/Qpp1Loj7MqjZI3SanQJvzZc7WwVCsyF0i1Ty925544A_350x200_2x-0.png",
+                         "src3x":"https://cdn-products.eneba.com/resized-products/Qpp1Loj7MqjZI3SanQJvzZc7WwVCsyF0i1Ty925544A_350x200_3x-0.png",
+                         "srcTiny":"https://cdn-products.eneba.com/resized-products/Qpp1Loj7MqjZI3SanQJvzZc7WwVCsyF0i1Ty925544A_70x92_1x-0.png",
+                         "__typename":"MultiSizeImage"
+                      },
+                      "coverMobile":{
+                         "src":"https://cdn-products.eneba.com/resized-products/Qpp1Loj7MqjZI3SanQJvzZc7WwVCsyF0i1Ty925544A_95x140_1x-0.png",
+                         "src2x":"https://cdn-products.eneba.com/resized-products/Qpp1Loj7MqjZI3SanQJvzZc7WwVCsyF0i1Ty925544A_95x140_2x-0.png",
+                         "src3x":"https://cdn-products.eneba.com/resized-products/Qpp1Loj7MqjZI3SanQJvzZc7WwVCsyF0i1Ty925544A_95x140_3x-0.png",
+                         "srcTiny":"https://cdn-products.eneba.com/resized-products/Qpp1Loj7MqjZI3SanQJvzZc7WwVCsyF0i1Ty925544A_70x92_1x-0.png",
+                         "__typename":"MultiSizeImage"
+                      },
+                      "promotion":{
+                         "available":false,
+                         "__typename":"ProductPromotion"
+                      },
+                      "cheapestAuction":{
+                         "id":"4494a5a8-8aec-11ec-bd65-9a2043297cb3",
+                         "isAddableToCart":true,
+                         "isInStock":true,
+                         "price":{
+                            "amount":29078,
+                            "currency":"BRL",
+                            "__typename":"Money"
+                         },
+                         "isPreOrder":false,
+                         "merchant":{
+                            "slug":"egame-trading",
+                            "displayname":"Egame Trading",
+                            "physicalReviews":{
+                               "totalCount":0,
+                               "edges":[
+                                  
+                               ],
+                               "__typename":"PhysicalReviewConnection"
+                            },
+                            "paymentAuthorizationTerm":{
+                               "value":"INSTANT",
+                               "__typename":"PaymentAuthorizationTermOption"
+                            },
+                            "deliveryAuthorizationTerm":{
+                               "value":"INSTANT",
+                               "__typename":"DeliveryAuthorizationTermOption"
+                            },
+                            "__typename":"Merchant"
+                         },
+                         "discountLabelFromMsrp":null,
+                         "msrp":null,
+                         "promotionalDiscountLabel":null,
+                         "promotionalDiscountLabelFromMsrp":null,
+                         "promotionalPrice":null,
+                         "flags":[
+                            
+                         ],
+                         "__typename":"Auction"
+                      },
+                      "wishItemCount":1229,
+                      "category":"DIGITAL",
+                      "__typename":"Product"
+                   },
+                   "__typename":"ProductEdge"
                 }
              ],
              "__typename":"ProductConnection"
@@ -469,12 +469,12 @@
                       "slug":null,
                       "cashbackPrice":null,
                       "price":{
-                         "amount":15204,
+                         "amount":15200,
                          "currency":"BRL",
                          "__typename":"Money"
                       },
                       "subscriptionPrice":{
-                         "amount":13833,
+                         "amount":13829,
                          "currency":"BRL",
                          "__typename":"Money"
                       },
@@ -550,12 +550,12 @@
                       "slug":null,
                       "cashbackPrice":null,
                       "price":{
-                         "amount":15263,
+                         "amount":15259,
                          "currency":"BRL",
                          "__typename":"Money"
                       },
                       "subscriptionPrice":{
-                         "amount":13887,
+                         "amount":13883,
                          "currency":"BRL",
                          "__typename":"Money"
                       },
@@ -631,12 +631,12 @@
                       "slug":null,
                       "cashbackPrice":null,
                       "price":{
-                         "amount":15381,
+                         "amount":15377,
                          "currency":"BRL",
                          "__typename":"Money"
                       },
                       "subscriptionPrice":{
-                         "amount":14010,
+                         "amount":14006,
                          "currency":"BRL",
                          "__typename":"Money"
                       },
@@ -830,12 +830,12 @@
              "slug":null,
              "cashbackPrice":null,
              "price":{
-                "amount":15097,
+                "amount":15093,
                 "currency":"BRL",
                 "__typename":"Money"
              },
              "subscriptionPrice":{
-                "amount":13726,
+                "amount":13722,
                 "currency":"BRL",
                 "__typename":"Money"
              },
@@ -965,8 +965,8 @@
              "rating":null,
              "__typename":"ProductRating"
           },
-          "pageViews":6,
-          "pageViewsLabel":"<strong>6 pessoa(s)</strong> vendo este produto",
+          "pageViews":4,
+          "pageViewsLabel":"<strong>4 pessoa(s)</strong> vendo este produto",
           "review":{
              "gameplayRating":"RATE_5",
              "storyRating":"RATE_4",
@@ -974,7 +974,7 @@
              "soundtrackRating":"RATE_5",
              "__typename":"ProductReview"
           },
-          "wishItemCount":5155,
+          "wishItemCount":5157,
           "reviews":{
              "totalCount":37,
              "edges":[
@@ -1258,10 +1258,10 @@
           ],
           "date":[
              "Fri, 01 Sep 2023 22:21:20 GMT",
-             "Fri, 01 Sep 2023 22:17:02 GMT",
-             "Fri, 01 Sep 2023 22:24:10 GMT"
+             "Fri, 01 Sep 2023 22:53:54 GMT",
+             "Fri, 01 Sep 2023 23:10:22 GMT"
           ],
-          "expires":"Fri, 01 Sep 2023 22:24:10 GMT"
+          "expires":"Fri, 01 Sep 2023 23:10:22 GMT"
        },
        "cache":{
           "version":1,
@@ -1293,12 +1293,12 @@
           {
              "name":"countries",
              "hit":true,
-             "ttl":3430647
+             "ttl":658469
           },
           {
              "name":"accessRule",
              "hit":true,
-             "ttl":3172042
+             "ttl":2611632
           },
           {
              "name":"wickedProduct",
