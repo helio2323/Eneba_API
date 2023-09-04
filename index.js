@@ -46,11 +46,11 @@ app.get('/Page', (req, res) => {
           "xbox"
         ],
         "regions": [
-          "global",
+          //"global",
           "latam",
-          "brazil",
+          //"brazil",
           "argentina",
-          "global0",
+          //"global0",
           "LATAM",
           "turkey"
         ],
