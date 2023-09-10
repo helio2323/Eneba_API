@@ -10,6 +10,7 @@ app.get('/Page', (req, res) => {
   const {afterValue} = req.query;
   const {sort_by} = req.query
   const {pesq} = req.query
+  const {ToPrice} = req.query
 
 
   var myHeaders = new Headers();
@@ -60,7 +61,7 @@ app.get('/Page', (req, res) => {
         "first": 20,
         "after": afterValue,
         "price": {
-          "to":1000,
+          "to": ToPrice,
           "currency": "BRL"
         },
         "contentContext": {
