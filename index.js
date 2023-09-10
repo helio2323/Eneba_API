@@ -67,7 +67,8 @@ app.get('/Page', (req, res) => {
           "language": "pt_BR"
         },
         "url": "/br/store/xbox-games",
-        "redirectUrl": "https://www.eneba.com/br/store/xbox-games"
+        "redirectUrl": "https://www.eneba.com/br/store/xbox-games",
+        "text":"red dead"
       }
     
     
