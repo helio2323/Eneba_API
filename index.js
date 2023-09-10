@@ -57,7 +57,7 @@ app.get('/Page', (req, res) => {
           "turkey"
         ],
         "sortBy": sort_by,
-        "first": 1000,
+        "first": 20,
         "after": afterValue,
         "price": {
           "currency": "BRL"
