@@ -60,6 +60,7 @@ app.get('/Page', (req, res) => {
         "first": 20,
         "after": afterValue,
         "price": {
+          "to":1000,
           "currency": "BRL"
         },
         "contentContext": {
