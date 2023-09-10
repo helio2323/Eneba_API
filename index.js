@@ -5,10 +5,11 @@ const app = express()
 
 
 
-
+//POPULARITY_DESC
 app.get('/Page', (req, res) => {
   const {afterValue} = req.query;
   const {sort_by} = req.query
+
 
   var myHeaders = new Headers();
   myHeaders.append("authority", "www.eneba.com");
@@ -54,7 +55,7 @@ app.get('/Page', (req, res) => {
           "LATAM",
           "turkey"
         ],
-        "sortBy": "POPULARITY_DESC",
+        "sortBy": sort_by,
         "first": 20,
         "after": afterValue,
         "price": {
