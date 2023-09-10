@@ -65,11 +65,11 @@ app.get('/Page', (req, res) => {
         "contentContext": {
           "country": "BR",
           "region": "brazil",
-          "language": pesq
+          "language": "pt_BR"
         },
         "url": "/br/store/xbox-games",
         "redirectUrl": "https://www.eneba.com/br/store/xbox-games",
-        "text":"red dead"
+        "text": pesq
       }
     
     
