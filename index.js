@@ -9,6 +9,7 @@ const app = express()
 app.get('/Page', (req, res) => {
   const {afterValue} = req.query;
   const {sort_by} = req.query
+  const {pesq} = req.query
 
 
   var myHeaders = new Headers();
@@ -64,7 +65,7 @@ app.get('/Page', (req, res) => {
         "contentContext": {
           "country": "BR",
           "region": "brazil",
-          "language": "pt_BR"
+          "language": pesq
         },
         "url": "/br/store/xbox-games",
         "redirectUrl": "https://www.eneba.com/br/store/xbox-games",
