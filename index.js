@@ -10,7 +10,6 @@ app.get('/Page', (req, res) => {
   const {afterValue} = req.query;
   const {sort_by} = req.query
   const {pesq} = req.query
-  const {game_genre} = req.query
 
 
   var myHeaders = new Headers();
@@ -44,9 +43,6 @@ app.get('/Page', (req, res) => {
         "searchType": "DEFAULT",
         "types": [
           "game"
-        ],
-        "genres": [
-          game_genre
         ],
         "drms": [
           "xbox"
