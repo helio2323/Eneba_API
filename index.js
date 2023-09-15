@@ -45,7 +45,9 @@ app.get('/Page', (req, res) => {
         "types": [
           "game"
         ],
-        "genres": game_genre,
+        "genres": [
+          game_genre
+        ],
         "drms": [
           "xbox"
         ],
