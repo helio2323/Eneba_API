@@ -13,67 +13,50 @@ app.get('/Page', (req, res) => {
 
 
   var myHeaders = new Headers();
-  myHeaders.append("authority", "www.eneba.com");
   myHeaders.append("accept", "*/*");
-  myHeaders.append("accept-language", "pt_BR");
+  myHeaders.append("accept-language", "en");
+  myHeaders.append("baggage", "sentry-environment=production,sentry-release=eneba%3Awww%401.3281.0,sentry-public_key=0857afeb74f643e19d8c7aec931404b3,sentry-trace_id=b4b34194fe314136b591544912c9095a,sentry-sampled=false,sentry-sample_rand=0.9053605260310796,sentry-sample_rate=0");
   myHeaders.append("content-type", "application/json");
-  myHeaders.append("cookie", "userId=016651737941421848825562432377430; region=brazil; exchange=BRL; _gcl_au=1.1.587405659.1692365192; _fbp=fb.1.1692365710501.1506513370; _ga_D9L6N0DH7Y=GS1.1.1693086325.1.1.1693087413.0.0.0; lng=br; cconsent=1; _ga=GA1.1.1047347883.1692365191; zd=79; cf_clearance=YykMod0PFQDjbGcBCUvUm8jZoB14_EjjN3eILedrr8A-1695939854-0-1-3c4d1a42.ce7787c3.6b4c45a2-0.2.1695939854; _ga_DLP0VZCBXJ=GS1.1.1695939824.112.1.1695939855.29.0.0");
-  myHeaders.append("origin", "https://www.eneba.com");
-  myHeaders.append("referer", "https://www.eneba.com/br/store/xbox-games?page=4");
-  myHeaders.append("sec-ch-ua", "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"");
+  myHeaders.append("priority", "u=1, i");
+  myHeaders.append("sec-ch-ua", "\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Google Chrome\";v=\"140\"");
   myHeaders.append("sec-ch-ua-mobile", "?1");
   myHeaders.append("sec-ch-ua-platform", "\"Android\"");
   myHeaders.append("sec-fetch-dest", "empty");
-  //myHeaders.append("sec-fetch-mode", "cors");
+  myHeaders.append("sec-fetch-mode", "cors");
   myHeaders.append("sec-fetch-site", "same-origin");
-  myHeaders.append("user-agent", "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36");
-  myHeaders.append("x-kl-saas-ajax-request", "Ajax_Request");
-  myHeaders.append("x-version", "1.834.0");
+  myHeaders.append("sentry-trace", "b4b34194fe314136b591544912c9095a-b44d90d6ae03dfa4-0");
+  myHeaders.append("x-version", "1.3281.0");
   
 var graphql = JSON.stringify({
-  query: "query Store($after: String, $first: Int, $text: String, $genres: [String], $os: [OS], $languages: [String], $price: Range, $drms: [String], $regions: [String], $countries: [String], $tags: [String], $types: [ProductType], $store: String, $searchType: SearchType, $digitalCurrency: [String], $preorder: Boolean, $currency: AvailableCurrencyType, $autoCorrect: Boolean, $context: ContextInput, $parentShortId: String, $categories: [ProductCategoryEnum], $url: String!, $sortBy: SearchSortEnum, $redirectUrl: String!, $contentContext: Content_ContextInput, $preferredProducts: [String]) {\n  search(\n    after: $after\n    first: $first\n    text: $text\n    genres: $genres\n    os: $os\n    languages: $languages\n    price: $price\n    drms: $drms\n    regions: $regions\n    countries: $countries\n    tags: $tags\n    types: $types\n    store: $store\n    sortBy: $sortBy\n    searchType: $searchType\n    digitalCurrency: $digitalCurrency\n    preorder: $preorder\n    autoCorrect: $autoCorrect\n    context: $context\n    categories: $categories\n    parentShortId: $parentShortId\n    preferredProducts: $preferredProducts\n  ) {\n    filters {\n      ... on RangeFilter {\n        title\n        slug\n        __typename\n      }\n      ... on GenericFilter {\n        title\n        slug\n        __typename\n      }\n      ... on PagerFilter {\n        title\n        slug\n        count\n        from\n        size\n        __typename\n      }\n      ... on ChoiceFilter {\n        title\n        slug\n        items {\n          count\n          name\n          value\n          active\n          slug\n          categoryType\n          __typename\n        }\n        type\n        __typename\n      }\n      ... on ProductFilter {\n        title\n        slug\n        product {\n          ...BasicProduct\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    results {\n      totalCount\n      totalCountRelation\n      edges {\n        node {\n          ...BasicProduct\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  breadcrumbs(url: $url, context: $context, currency: $currency) {\n    label\n    ... on SeoCategoryBreadcrumb {\n      slug\n      type\n      __typename\n    }\n    ... on ProductBreadcrumb {\n      slug\n      __typename\n    }\n    ... on UrlBreadcrumb {\n      url\n      __typename\n    }\n    __typename\n  }\n  Content_accessRule(url: $redirectUrl, context: $contentContext) {\n    statusCode\n    location\n    __typename\n  }\n}\n\nfragment BasicProduct on Product {\n  shortId\n  name\n  slug\n  regions {\n    code\n    name\n    __typename\n  }\n  type {\n    value\n    __typename\n  }\n  drm {\n    name\n    slug\n    __typename\n  }\n  cashback {\n    valuePercent\n    secondsUntilExpiration\n    __typename\n  }\n  cover(size: 300) {\n    ...MultiSizeImage\n    __typename\n  }\n  coverMobile: cover(size: 95) {\n    ...MultiSizeImage\n    __typename\n  }\n  promotion {\n    available\n    __typename\n  }\n  cheapestAuction {\n    ...PreferredOrCheapestAuction\n    __typename\n  }\n  wishItemCount\n  category\n  __typename\n}\n\nfragment PreferredOrCheapestAuction on Auction {\n  id\n  isAddableToCart\n  isInStock\n  price(currency: $currency) {\n    ...Money\n    __typename\n  }\n  isPreOrder\n  merchant {\n    slug\n    displayname\n    physicalReviews(first: 5, after: null) {\n      ...PhysicalReviewConnection\n      __typename\n    }\n    paymentAuthorizationTerm {\n      value\n      __typename\n    }\n    deliveryAuthorizationTerm {\n      value\n      __typename\n    }\n    __typename\n  }\n  discountLabelFromMsrp\n  msrp(currency: $currency) {\n    ...Money\n    __typename\n  }\n  promotionalDiscountLabel\n  promotionalDiscountLabelFromMsrp\n  promotionalPrice(currency: $currency) {\n    ...Money\n    __typename\n  }\n  flags\n  __typename\n}\n\nfragment Money on Money {\n  amount\n  currency\n  __typename\n}\n\nfragment PhysicalReviewConnection on PhysicalReviewConnection {\n  totalCount\n  edges {\n    node {\n      id\n      text\n      auto\n      rating\n      autoText\n      orderItemName\n      submittedAt\n      submittedDiff\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment MultiSizeImage on MultiSizeImage {\n  src\n  src2x\n  src3x\n  srcTiny\n  __typename\n}",
-    
-      "variables": {
-        "currency": "BRL",
-        "context": {
-          "country": "BR",
-          "region": "brazil",
-          "language": "pt_BR"
-        },
-        "searchType": "DEFAULT",
-        "types": [
-          "game"
-        ],
-        "drms": [
-          "xbox"
-        ],
-        "regions": [
-          //"global",
-          "latam",
-          //"brazil",
-          "argentina",
-          //"global0",
-          "LATAM",
-          "turkey"
-        ],
-        "sortBy": sort_by,
-        "first": 20,
-        "after": afterValue,
-        "price": {
-          "currency": "BRL"
-        },
-        "contentContext": {
-          "country": "BR",
-          "region": "brazil",
-          "language": "pt_BR"
-        },
-        "url": "/br/store/xbox-games",
-        "redirectUrl": "https://www.eneba.com/br/store/xbox-games",
-        "text": pesq
-      }
-    
-    
-    })
+  "operationName": "Store",
+  "variables": {
+    "currency": "BRL",
+    "context": {
+      "country": "BR",
+      "region": "brazil",
+      "language": "en"
+    },
+    "searchType": "DEFAULT",
+    "types": ["game"],
+    "drms": ["xbox"],
+    "regions": ["global", "latam", "brazil", "argentina", "europe", "united_states", "turkey", "united_kingdom", "mexico", "colombia", "canada", "india", "egypt", "australia", "chile", "saudi_arabia", "south_africa", "nigeria", "singapore", "japan", "united_arab_emirates", "ukraine", "asia", "taiwan", "germany", "poland", "row", "philippines", "north_america", "spain", "france", "italy", "middle_east", "south_korea", "norway", "denmark", "hong_kong", "hungary", "netherlands", "vietnam", "belgium", "greece", "sweden", "austria", "czech_republic", "emea", "luxembourg", "new_zealand", "portugal", "switzerland"],
+    "sortBy": sort_by || "POPULARITY_DESC",
+    "after": afterValue === "0" ? null : afterValue,
+    "first": 20,
+    "price": {
+      "currency": "BRL"
+    },
+    "url": "/store/xbox-games",
+    "redirectUrl": "https://www.eneba.com/store/xbox-games",
+    "text": pesq || ""
+  },
+  "extensions": {
+    "persistedQuery": {
+      "version": 1,
+      "sha256Hash": "e7c4cb284593ba8790a73238ee99c8b3cceb6dae6a3bd6a3eb46de758bab688e_fa9d4ba78292d78e2783bcbfcafd66f124a700122195de5fb927b7244800cf5a3e299cb9abf45322afaac142ce79f9f89d4447d0d908f83f9ff19f79be55f40e"
+    }
+  }
+})
     var requestOptions = {
     method: 'POST',
     headers: myHeaders,
