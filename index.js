@@ -11,6 +11,7 @@ app.get('/Page', (req, res) => {
   const {afterValue} = req.query;
   const {sort_by} = req.query
   const {pesq} = req.query
+  const {region} = req.query // Novo parâmetro para região
 
 
   var myHeaders = new Headers();
@@ -33,8 +34,8 @@ var graphql = JSON.stringify({
   "variables": {
     "currency": "BRL",
     "context": {
-      "country": "BR",
-      "region": "brazil",
+      "country": region ? region.toUpperCase() : "US",
+      "region": region || "united_states",
       "language": "en"
     },
     "searchType": "DEFAULT",

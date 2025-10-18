@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "description": "Dados de distribuição de jogos por região na Eneba",
+    "totalRegions": 50,
+    "totalGames": 25000,
+    "lastUpdated": "2024-12-19",
+    "source": "Eneba API Analysis"
+  },
+  "regions": [
+    {
+      "name": "Argentina",
+      "code": "argentina",
+      "gameCount": 7095,
+      "percentage": 28.38
+    },
+    {
+      "name": "Europe",
+      "code": "europe",
+      "gameCount": 5066,
+      "percentage": 20.26
+    },
+    {
+      "name": "United States",
+      "code": "united_states",
+      "gameCount": 3581,
+      "percentage": 14.32
+    },
+    {
+      "name": "Turkey",
+      "code": "turkey",
+      "gameCount": 2927,
+      "percentage": 11.71
+    },
+    {
+      "name": "Global",
+      "code": "global",
+      "gameCount": 1613,
+      "percentage": 6.45
+    },
+    {
+      "name": "United Kingdom",
+      "code": "united_kingdom",
+      "gameCount": 1162,
+      "percentage": 4.65
+    },
+    {
+      "name": "Mexico",
+      "code": "mexico",
+      "gameCount": 837,
+      "percentage": 3.35
+    },
+    {
+      "name": "Colombia",
+      "code": "colombia",
+      "gameCount": 752,
+      "percentage": 3.01
+    },
+    {
+      "name": "Brazil",
+      "code": "brazil",
+      "gameCount": 712,
+      "percentage": 2.85
+    },
+    {
+      "name": "Canada",
+      "code": "canada",
+      "gameCount": 427,
+      "percentage": 1.71
+    },
+    {
+      "name": "India",
+      "code": "india",
+      "gameCount": 322,
+      "percentage": 1.29
+    },
+    {
+      "name": "Egypt",
+      "code": "egypt",
+      "gameCount": 221,
+      "percentage": 0.88
+    },
+    {
+      "name": "Chile",
+      "code": "chile",
+      "gameCount": 127,
+      "percentage": 0.51
+    },
+    {
+      "name": "Australia",
+      "code": "australia",
+      "gameCount": 119,
+      "percentage": 0.48
+    },
+    {
+      "name": "Latin America",
+      "code": "latam",
+      "gameCount": 111,
+      "percentage": 0.44
+    },
+    {
+      "name": "Saudi Arabia",
+      "code": "saudi_arabia",
+      "gameCount": 90,
+      "percentage": 0.36
+    },
+    {
+      "name": "South Africa",
+      "code": "south_africa",
+      "gameCount": 88,
+      "percentage": 0.35
+    },
+    {
+      "name": "Nigeria",
+      "code": "nigeria",
+      "gameCount": 70,
+      "percentage": 0.28
+    },
+    {
+      "name": "Singapore",
+      "code": "singapore",
+      "gameCount": 53,
+      "percentage": 0.21
+    },
+    {
+      "name": "Japan",
+      "code": "japan",
+      "gameCount": 43,
+      "percentage": 0.17
+    },
+    {
+      "name": "United Arab Emirates",
+      "code": "united_arab_emirates",
+      "gameCount": 42,
+      "percentage": 0.17
+    },
+    {
+      "name": "Ukraine",
+      "code": "ukraine",
+      "gameCount": 32,
+      "percentage": 0.13
+    },
+    {
+      "name": "Asia",
+      "code": "asia",
+      "gameCount": 24,
+      "percentage": 0.10
+    },
+    {
+      "name": "Taiwan",
+      "code": "taiwan",
+      "gameCount": 18,
+      "percentage": 0.07
+    },
+    {
+      "name": "Germany",
+      "code": "germany",
+      "gameCount": 16,
+      "percentage": 0.06
+    },
+    {
+      "name": "Poland",
+      "code": "poland",
+      "gameCount": 14,
+      "percentage": 0.06
+    },
+    {
+      "name": "Rest of the World",
+      "code": "row",
+      "gameCount": 14,
+      "percentage": 0.06
+    },
+    {
+      "name": "Philippines",
+      "code": "philippines",
+      "gameCount": 13,
+      "percentage": 0.05
+    },
+    {
+      "name": "North America",
+      "code": "north_america",
+      "gameCount": 12,
+      "percentage": 0.05
+    },
+    {
+      "name": "Spain",
+      "code": "spain",
+      "gameCount": 11,
+      "percentage": 0.04
+    },
+    {
+      "name": "France",
+      "code": "france",
+      "gameCount": 9,
+      "percentage": 0.04
+    },
+    {
+      "name": "Italy",
+      "code": "italy",
+      "gameCount": 9,
+      "percentage": 0.04
+    },
+    {
+      "name": "Middle East",
+      "code": "middle_east",
+      "gameCount": 8,
+      "percentage": 0.03
+    },
+    {
+      "name": "South Korea",
+      "code": "south_korea",
+      "gameCount": 5,
+      "percentage": 0.02
+    },
+    {
+      "name": "Norway",
+      "code": "norway",
+      "gameCount": 4,
+      "percentage": 0.02
+    },
+    {
+      "name": "Denmark",
+      "code": "denmark",
+      "gameCount": 3,
+      "percentage": 0.01
+    },
+    {
+      "name": "Hong Kong",
+      "code": "hong_kong",
+      "gameCount": 3,
+      "percentage": 0.01
+    },
+    {
+      "name": "Hungary",
+      "code": "hungary",
+      "gameCount": 3,
+      "percentage": 0.01
+    },
+    {
+      "name": "Netherlands",
+      "code": "netherlands",
+      "gameCount": 3,
+      "percentage": 0.01
+    },
+    {
+      "name": "Vietnam",
+      "code": "vietnam",
+      "gameCount": 3,
+      "percentage": 0.01
+    },
+    {
+      "name": "Belgium",
+      "code": "belgium",
+      "gameCount": 2,
+      "percentage": 0.01
+    },
+    {
+      "name": "Greece",
+      "code": "greece",
+      "gameCount": 2,
+      "percentage": 0.01
+    },
+    {
+      "name": "Sweden",
+      "code": "sweden",
+      "gameCount": 2,
+      "percentage": 0.01
+    },
+    {
+      "name": "Austria",
+      "code": "austria",
+      "gameCount": 1,
+      "percentage": 0.00
+    },
+    {
+      "name": "Czech Republic",
+      "code": "czech_republic",
+      "gameCount": 1,
+      "percentage": 0.00
+    },
+    {
+      "name": "EMEA",
+      "code": "emea",
+      "gameCount": 1,
+      "percentage": 0.00
+    },
+    {
+      "name": "Luxembourg",
+      "code": "luxembourg",
+      "gameCount": 1,
+      "percentage": 0.00
+    },
+    {
+      "name": "New Zealand",
+      "code": "new_zealand",
+      "gameCount": 1,
+      "percentage": 0.00
+    },
+    {
+      "name": "Portugal",
+      "code": "portugal",
+      "gameCount": 1,
+      "percentage": 0.00
+    },
+    {
+      "name": "Switzerland",
+      "code": "switzerland",
+      "gameCount": 1,
+      "percentage": 0.00
+    }
+  ],
+  "analysis": {
+    "topRegions": [
+      "Argentina (28.38%)",
+      "Europe (20.26%)",
+      "United States (14.32%)",
+      "Turkey (11.71%)",
+      "Global (6.45%)"
+    ],
+    "totalGames": 25000,
+    "regionsWithGames": 50,
+    "averageGamesPerRegion": 500,
+    "medianGamesPerRegion": 14
+  }
+}
