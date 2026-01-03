@@ -1,0 +1,330 @@
+{
+  "metadata": {
+    "total_games": 40,
+    "region": "brazil",
+    "collected_at": "2025-10-18 13:09:44",
+    "source": "EnebaAPI Python"
+  },
+  "games": [
+    {
+      "slug": "xbox-minecraft-legends-xbox-live-key-brazil",
+      "name": "Minecraft Legends XBOX LIVE Key BRAZIL",
+      "short_id": "18hjhxfz9we65mcw8k51biwnrr",
+      "price": 372,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-sekiro-shadows-die-twice-goty-edition-xbox-live-key-brazil",
+      "name": "Sekiro: Shadows Die Twice - GOTY Edition XBOX LIVE Key BRAZIL",
+      "short_id": "hjfitcdr6ee65n6hzap1f3qika",
+      "price": 7998,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-ea-sports-fc-26-standard-edition-xbox-series-x-s-xbox-live-key-brazil",
+      "name": "EA SPORTS FC 26 Standard Edition (Xbox Series X|S) XBOX LIVE Key BRAZIL",
+      "short_id": "mqguriuhboe9bmko8edqxt97hr",
+      "price": 37043,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-dark-souls-remastered-xbox-live-key-global",
+      "name": "Dark Souls: Remastered XBOX LIVE Key GLOBAL",
+      "short_id": "m4kup3ihsre65q9j3jud4po5mw",
+      "price": 2643,
+      "currency": "BRL",
+      "region": "global"
+    },
+    {
+      "slug": "xbox-wolfenstein-the-old-blood-xbox-live-key-brazil",
+      "name": "Wolfenstein: The Old Blood XBOX LIVE Key BRAZIL",
+      "short_id": "byefk6b5zee9bx7boay63fgqbr",
+      "price": 915,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-devil-may-cry-5-special-edition-xbox-series-x-s-xbox-live-key-brazil",
+      "name": "Devil May Cry 5 Special Edition (Xbox Series X|S) XBOX LIVE Key BRAZIL",
+      "short_id": "oa16eou5ore65yfu8jutzcsu4h",
+      "price": 4365,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-ea-sports-fc-25-standard-edition-xbox-live-key-brazil",
+      "name": "EA SPORTS FC 25 Standard Edition XBOX LIVE Key BRAZIL",
+      "short_id": "xzdmz4u69ee698pywj6grphwma",
+      "price": 9770,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-grand-theft-auto-the-trilogy-the-definitive-edition-xbox-live-key-brazil",
+      "name": "Grand Theft Auto: The Trilogy – The Definitive Edition XBOX LIVE Key BRAZIL",
+      "short_id": "unwmicnnywe63jspqkrt6fukgw",
+      "price": 12608,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-wolfenstein-ii-the-new-colossus-digital-deluxe-edition-xbox-live-key-brazil",
+      "name": "Wolfenstein II: The New Colossus Digital Deluxe Edition XBOX LIVE Key BRAZIL",
+      "short_id": "jauakndjpye65yco5mgcks4ixr",
+      "price": 1880,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-forza-horizon-4-pc-xbox-live-key-brazil",
+      "name": "Forza Horizon 4 PC/XBOX LIVE Key BRAZIL",
+      "short_id": "drd3icyszye63ymd83onf9tfch",
+      "price": 14608,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-red-dead-redemption-2-xbox-live-key-brazil",
+      "name": "Red Dead Redemption 2 XBOX LIVE Key BRAZIL",
+      "short_id": "1gokyh1mcce63xt7a335bpqg7y",
+      "price": 14381,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-call-of-duty-wwii-gold-edition-xbox-live-key-brazil",
+      "name": "Call of Duty WWII Gold Edition XBOX LIVE Key BRAZIL",
+      "short_id": "6k9oi5u1ece65m54ykzogb4qpw",
+      "price": 6017,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-elden-ring-xbox-live-key-brazil",
+      "name": "Elden Ring XBOX LIVE Key BRAZIL",
+      "short_id": "fzs67irsnye63kcdnma6aqi4or",
+      "price": 47506,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-assassins-creed-valhalla-xbox-live-key-brazil",
+      "name": "Assassin's Creed Valhalla XBOX LIVE Key BRAZIL",
+      "short_id": "bi3huqry3ce6zng91adqtyp5sa",
+      "price": 5046,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-dragon-ball-z-kakarot-xbox-live-key-brazil",
+      "name": "Dragon Ball Z: Kakarot XBOX LIVE Key BRAZIL",
+      "short_id": "eyikuywpuoe658axu4ph7ucezo",
+      "price": 8855,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-resident-evil-4-xbox-series-x-s-xbox-live-key-brazil",
+      "name": "Resident Evil 4 (Xbox Series X|S) Xbox Live Key BRAZIL",
+      "short_id": "bnsjqufz8ae65e5783m1z9mwec",
+      "price": 22012,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-forza-horizon-5-pc-xbox-live-key-brazil",
+      "name": "Forza Horizon 5 PC/XBOX LIVE Key BRAZIL",
+      "short_id": "a76sj8bbsoe63ndcb43etnxp5h",
+      "price": 20341,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-wo-long-fallen-dynasty-pc-xbox-live-key-brazil",
+      "name": "Wo Long: Fallen Dynasty PC/XBOX LIVE Key BRAZIL",
+      "short_id": "8bx554uceoe69das3aqydzn9yc",
+      "price": 17824,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-grand-theft-auto-v-premium-online-edition-xbox-live-key-brazil",
+      "name": "Grand Theft Auto V: Premium Online Edition XBOX LIVE Key BRAZIL",
+      "short_id": "1qeaagd18re65y4oykzogb4qpw",
+      "price": 8187,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-minecraft-legends-xbox-live-key-global",
+      "name": "Minecraft Legends XBOX LIVE Key GLOBAL",
+      "short_id": "izznzos1sce65d4y14f1c7m36r",
+      "price": 284,
+      "currency": "BRL",
+      "region": "global"
+    },
+    {
+      "slug": "xbox-minecraft-legends-xbox-live-key-brazil",
+      "name": "Minecraft Legends XBOX LIVE Key BRAZIL",
+      "short_id": "18hjhxfz9we65mcw8k51biwnrr",
+      "price": 372,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-sekiro-shadows-die-twice-goty-edition-xbox-live-key-brazil",
+      "name": "Sekiro: Shadows Die Twice - GOTY Edition XBOX LIVE Key BRAZIL",
+      "short_id": "hjfitcdr6ee65n6hzap1f3qika",
+      "price": 7998,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-ea-sports-fc-26-standard-edition-xbox-series-x-s-xbox-live-key-brazil",
+      "name": "EA SPORTS FC 26 Standard Edition (Xbox Series X|S) XBOX LIVE Key BRAZIL",
+      "short_id": "mqguriuhboe9bmko8edqxt97hr",
+      "price": 37043,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-dark-souls-remastered-xbox-live-key-global",
+      "name": "Dark Souls: Remastered XBOX LIVE Key GLOBAL",
+      "short_id": "m4kup3ihsre65q9j3jud4po5mw",
+      "price": 2643,
+      "currency": "BRL",
+      "region": "global"
+    },
+    {
+      "slug": "xbox-wolfenstein-the-old-blood-xbox-live-key-brazil",
+      "name": "Wolfenstein: The Old Blood XBOX LIVE Key BRAZIL",
+      "short_id": "byefk6b5zee9bx7boay63fgqbr",
+      "price": 915,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-devil-may-cry-5-special-edition-xbox-series-x-s-xbox-live-key-brazil",
+      "name": "Devil May Cry 5 Special Edition (Xbox Series X|S) XBOX LIVE Key BRAZIL",
+      "short_id": "oa16eou5ore65yfu8jutzcsu4h",
+      "price": 4365,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-ea-sports-fc-25-standard-edition-xbox-live-key-brazil",
+      "name": "EA SPORTS FC 25 Standard Edition XBOX LIVE Key BRAZIL",
+      "short_id": "xzdmz4u69ee698pywj6grphwma",
+      "price": 9770,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-grand-theft-auto-the-trilogy-the-definitive-edition-xbox-live-key-brazil",
+      "name": "Grand Theft Auto: The Trilogy – The Definitive Edition XBOX LIVE Key BRAZIL",
+      "short_id": "unwmicnnywe63jspqkrt6fukgw",
+      "price": 12608,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-wolfenstein-ii-the-new-colossus-digital-deluxe-edition-xbox-live-key-brazil",
+      "name": "Wolfenstein II: The New Colossus Digital Deluxe Edition XBOX LIVE Key BRAZIL",
+      "short_id": "jauakndjpye65yco5mgcks4ixr",
+      "price": 1880,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-forza-horizon-4-pc-xbox-live-key-brazil",
+      "name": "Forza Horizon 4 PC/XBOX LIVE Key BRAZIL",
+      "short_id": "drd3icyszye63ymd83onf9tfch",
+      "price": 14608,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-red-dead-redemption-2-xbox-live-key-brazil",
+      "name": "Red Dead Redemption 2 XBOX LIVE Key BRAZIL",
+      "short_id": "1gokyh1mcce63xt7a335bpqg7y",
+      "price": 14381,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-call-of-duty-wwii-gold-edition-xbox-live-key-brazil",
+      "name": "Call of Duty WWII Gold Edition XBOX LIVE Key BRAZIL",
+      "short_id": "6k9oi5u1ece65m54ykzogb4qpw",
+      "price": 6017,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-elden-ring-xbox-live-key-brazil",
+      "name": "Elden Ring XBOX LIVE Key BRAZIL",
+      "short_id": "fzs67irsnye63kcdnma6aqi4or",
+      "price": 47506,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-assassins-creed-valhalla-xbox-live-key-brazil",
+      "name": "Assassin's Creed Valhalla XBOX LIVE Key BRAZIL",
+      "short_id": "bi3huqry3ce6zng91adqtyp5sa",
+      "price": 5046,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-dragon-ball-z-kakarot-xbox-live-key-brazil",
+      "name": "Dragon Ball Z: Kakarot XBOX LIVE Key BRAZIL",
+      "short_id": "eyikuywpuoe658axu4ph7ucezo",
+      "price": 8855,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-resident-evil-4-xbox-series-x-s-xbox-live-key-brazil",
+      "name": "Resident Evil 4 (Xbox Series X|S) Xbox Live Key BRAZIL",
+      "short_id": "bnsjqufz8ae65e5783m1z9mwec",
+      "price": 22012,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-forza-horizon-5-pc-xbox-live-key-brazil",
+      "name": "Forza Horizon 5 PC/XBOX LIVE Key BRAZIL",
+      "short_id": "a76sj8bbsoe63ndcb43etnxp5h",
+      "price": 20341,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-wo-long-fallen-dynasty-pc-xbox-live-key-brazil",
+      "name": "Wo Long: Fallen Dynasty PC/XBOX LIVE Key BRAZIL",
+      "short_id": "8bx554uceoe69das3aqydzn9yc",
+      "price": 17824,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-grand-theft-auto-v-premium-online-edition-xbox-live-key-brazil",
+      "name": "Grand Theft Auto V: Premium Online Edition XBOX LIVE Key BRAZIL",
+      "short_id": "1qeaagd18re65y4oykzogb4qpw",
+      "price": 8187,
+      "currency": "BRL",
+      "region": "brazil"
+    },
+    {
+      "slug": "xbox-minecraft-legends-xbox-live-key-global",
+      "name": "Minecraft Legends XBOX LIVE Key GLOBAL",
+      "short_id": "izznzos1sce65d4y14f1c7m36r",
+      "price": 284,
+      "currency": "BRL",
+      "region": "global"
+    }
+  ]
+}
